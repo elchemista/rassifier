@@ -1,0 +1,505 @@
+user_input,label
+"Yes",agree
+"Ok",agree
+"Alright",agree
+"Sure",agree
+"Absolutely",agree
+"Certainly",agree
+"Of course",agree
+"Yeah",agree
+"Yep",agree
+"Uh huh",agree
+"I agree",agree
+"Sounds good",agree
+"Fine",agree
+"That's fine",agree
+"Roger that",agree
+"Sure thing",agree
+"Right on",agree
+"Got it",agree
+"Alright then",agree
+"Okay, I'm in",agree
+"Yes, that works",agree
+"Agreed",agree
+"Totally",agree
+"Exactly",agree
+"Indeed",agree
+"Affirmative",agree
+"Fine by me",agree
+"I consent",agree
+"Let's go with that",agree
+"I'm okay with that",agree
+"Works for me",agree
+"Alright, let's do it",agree
+"I'm good with that",agree
+"Okay, sure",agree
+"Sounds like a plan",agree
+"I'm on board",agree
+"Very well",agree
+"All set",agree
+"I approve",agree
+"No objections",agree
+"I concur",agree
+"Consider it done",agree
+"Fine, let's proceed",agree
+"I'm in agreement",agree
+"Okay, agreed",agree
+"Sure, why not",agree
+"Absolutely, let's do it",agree
+"I'm game",agree
+"Let's roll",agree
+"I'm all for it",agree
+"Yes, let's proceed",agree
+"Okay, I consent",agree
+"That works for me",agree
+"I’m in",agree
+"Perfect, let's go",agree
+"Sounds acceptable",agree
+"Okay, I'll do that",agree
+"Yes, let's move forward",agree
+"I'm okay with proceeding",agree
+"Yes, I approve",agree
+"Alright, sounds good",agree
+"I'm all set",agree
+"Yes, it's fine",agree
+"Okay, moving on",agree
+"Yes, let's continue",agree
+"All good",agree
+"Alright, I'm good",agree
+"I’m fine with that",agree
+"Sure, let's do it",agree
+"I'm in agreement",agree
+"Agreed, let's go",agree
+"Okay, let's get started",agree
+"Yes, I'm on board",agree
+"Fine, I'm in",agree
+"I'm good",agree
+"Ok, moving forward",agree
+"Right, I'm okay with that",agree
+"Yes, I’m down",agree
+"Sure, that works",agree
+"Absolutely, I'm in",agree
+"That’s acceptable",agree
+"I'm with you",agree
+"Okay, that’s fine",agree
+"Yes, sounds good",agree
+"Alright, I'm set",agree
+"Count me in",agree
+"I'm okay",agree
+"Sure, go ahead",agree
+"Okay, that works",agree
+"Yes, let's do that",agree
+"I approve of this",agree
+"Fine, let's move on",agree
+"Yes, I'm all in",agree
+"I'm on board with that",agree
+"Okay, I'm good to go",agree
+"Yes, that's acceptable",agree
+"Alright, I'm ready",agree
+"I'm okay with proceeding",agree
+"Yes, it's a plan",agree
+"Sure, I'm in",agree
+"create",create
+"create job",create
+"job create",create
+"create a job",create
+"post job",create
+"Yes please create",create
+"Create it now",create
+"Let's post it",create
+"Publish the job",create
+"Go ahead and create the job post",create
+"I want to create this job",create
+"Please create the listing",create
+"Create the post, please",create
+"Let's get this job created",create
+"Proceed to create the job post",create
+"Make it live",create
+"Post it now",create
+"Publish it right away",create
+"Set up the job post",create
+"Initiate job creation",create
+"Confirm and create",create
+"Create the listing",create
+"Let's launch the job post",create
+"I approve, create the job",create
+"Create the advertisement",create
+"Please publish this job",create
+"Go ahead and post it",create
+"Let's create this opportunity",create
+"Make the job post public",create
+"I'm ready to create the job",create
+"Post the job listing",create
+"Let's finalize and create",create
+"Create the job ad",create
+"Publish the job post",create
+"Set up the post",create
+"Proceed with job creation",create
+"Let's create and post",create
+"Yes, make it live",create
+"Initiate the job posting",create
+"Create the listing now",create
+"Publish the advertisement",create
+"I want to post this job",create
+"Get this job live",create
+"Go ahead, create it",create
+"Yes, let's create it",create
+"Create this job opportunity",create
+"Please post the job",create
+"Job post, please create",create
+"I confirm, create the job",create
+"Set up the job ad",create
+"Publish the listing",create
+"Let's make it live",create
+"Proceed, create the listing",create
+"Start the job post",create
+"Yes, please publish",create
+"Confirm creation of the job",create
+"Let's post this job ad",create
+"Create the job announcement",create
+"I want to see it live",create
+"Make the job listing active",create
+"Create and publish the job",create
+"Yes, start posting",create
+"Let's go live with the job",create
+"Publish and create the listing",create
+"Initiate the posting process",create
+"Create this job ad",create
+"Let's get it posted",create
+"Yes, move ahead and create",create
+"Set the job post live",create
+"Confirm and post the job",create
+"Create the vacancy post",create
+"Post the job opportunity",create
+"Yes, launch the job ad",create
+"I approve, go live",create
+"Please create and publish",create
+"Make it public",create
+"Job posting, please",create
+"Let's get the job online",create
+"Initiate posting",create
+"Create the job online",create
+"Post the advertisement now",create
+"Confirm and set live",create
+"Yes, execute the job post",create
+"Proceed with creating the ad",create
+"Start the listing",create
+"I want to post the listing",create
+"Let's publish it",create
+"Yes, create the vacancy",create
+"Make the post available",create
+"Job ad, create it",create
+"Let's launch the listing",create
+"Please set up the ad",create
+"Go ahead, publish it",create
+"Yes, I want it created",create
+"Create the job announcement now",create
+"Let's make this job live",create
+"Confirm and create the ad",create
+"I agree, post it now",create
+"Yes, get the job posted",create
+"Proceed to publish",create
+"Let's put the job online",create
+"Job post, go ahead",create
+"Start creating the job ad",create
+"Yes, finalize and publish",create
+"I want to change the title",edit
+"Let's edit the job details",edit
+"I need to modify the job description",edit
+"Please let me make changes",edit
+"I want to update the job post",edit
+"Edit the listing, please",edit
+"I need to revise the job requirements",edit
+"Can I modify the post?","edit"
+"Let's adjust some details",edit
+"I want to rework the job post",edit
+"Change the title for me",edit
+"Update the description",edit
+"Revise the job details",edit
+"I want to edit some parts",edit
+"Make changes to the post",edit
+"I need to fix some details",edit
+"Let's alter the job post",edit
+"I want to update it",edit
+"Modify the listing",edit
+"Please adjust the job details",edit
+"I need to change some information",edit
+"Revise the advertisement",edit
+"Let's re-edit the job description",edit
+"I want to tweak the post",edit
+"Can we edit this?",edit
+"I would like to make edits",edit
+"Adjust the job details, please",edit
+"Let's update the requirements",edit
+"I need to correct the post",edit
+"Please modify the job details",edit
+"Let's revise and update",edit
+"I want to change the description",edit
+"Edit the ad details",edit
+"Please change the listing information",edit
+"I need to modify it",edit
+"Update the job requirements",edit
+"I want to rephrase the post",edit
+"Let's alter some sections",edit
+"Change the job details",edit
+"Revamp the job post",edit
+"I need to rework the listing",edit
+"Adjust the description, please",edit
+"I want to edit the advertisement",edit
+"Revise the post content",edit
+"I need to fix the title",edit
+"Let's correct the job details",edit
+"Modify the job description",edit
+"I want to update some fields",edit
+"Can I edit the job info?",edit
+"Let's change some details",edit
+"I want to review and edit",edit
+"Please update the title",edit
+"I need to tweak the requirements",edit
+"Revise the description please",edit
+"Edit the listing information",edit
+"Let's rework the ad",edit
+"I want to make some changes",edit
+"Change the details in the post",edit
+"Update the job advertisement",edit
+"I want to modify the content",edit
+"Let's adjust the title and description",edit
+"I need to change the job specs",edit
+"Revise and edit the post",edit
+"Please alter the listing",edit
+"I want to update some info",edit
+"Modify the ad, please",edit
+"Let's re-edit the job details",edit
+"I need to correct the description",edit
+"Change some parts of the job post",edit
+"Update the information in the listing",edit
+"I want to tweak the advertisement",edit
+"Revise the details of the post",edit
+"Please modify the job ad",edit
+"Let's update the job info",edit
+"I need to edit the specifics",edit
+"Adjust the listing details",edit
+"I want to rework the job description",edit
+"Change the details, please",edit
+"Revise the title and description",edit
+"Update the advertisement, please",edit
+"I need to modify the job content",edit
+"Let's correct the listing details",edit
+"I want to edit the job ad",edit
+"Please adjust the post content",edit
+"Revise the job specifications",edit
+"I need to change the ad details",edit
+"Let's update and revise",edit
+"I want to modify some details",edit
+"Edit the job info",edit
+"Please rephrase the job post",edit
+"I need to update the content",edit
+"Let's tweak the listing",edit
+"I want to adjust the job post",edit
+"Modify the job details, please",edit
+"Revise the content of the advertisement",edit
+"I need to change some sections",edit
+"Let's edit the job description again",edit
+"Please update the ad information",edit
+"I want to correct the post details",edit
+"Revise and modify the job post",edit
+"No, I changed my mind",cancel
+"No, let's not do this",cancel
+"I don't want to post it",cancel
+"Stop, not now",cancel
+"Cancel this please",cancel
+"No go back",cancel
+"Never mind, scrap it",cancel
+"I'm reconsidering, cancel",cancel
+"Don't do it",cancel
+"No, I'll pass for now",cancel
+"Abort the process",cancel
+"Hold off, cancel it",cancel
+"I don't want to proceed",cancel
+"Let's cancel this",cancel
+"Stop the action",cancel
+"Please cancel the post",cancel
+"I want to cancel",cancel
+"Cancel the job posting",cancel
+"Don't create it",cancel
+"Forget it",cancel
+"Never mind",cancel
+"I want to abort",cancel
+"Cancel everything",cancel
+"I don't approve, cancel",cancel
+"Hold on, cancel",cancel
+"I changed my decision, cancel",cancel
+"Please abort",cancel
+"Don't move forward",cancel
+"Stop and cancel",cancel
+"I no longer want this",cancel
+"Cancel the operation",cancel
+"End this process",cancel
+"No, don't proceed",cancel
+"I want to stop",cancel
+"Terminate the action",cancel
+"Cancel it immediately",cancel
+"I decide to cancel",cancel
+"Don't continue",cancel
+"I'm calling it off",cancel
+"I want to retract",cancel
+"Cancel my request",cancel
+"Don't go ahead",cancel
+"I changed my mind, stop",cancel
+"Halt the process",cancel
+"I don't want to continue",cancel
+"Please stop and cancel",cancel
+"Abort, please",cancel
+"Cancel the listing",cancel
+"I'm not interested, cancel",cancel
+"Don't create, cancel it",cancel
+"Cancel the job ad",cancel
+"I want to back out",cancel
+"Stop the posting",cancel
+"Cancel now",cancel
+"I opt to cancel",cancel
+"Let's not proceed",cancel
+"Cancel the operation now",cancel
+"I wish to cancel",cancel
+"Discontinue this",cancel
+"No, stop it",cancel
+"I want to retract this",cancel
+"Abort the posting",cancel
+"I don't want to move forward",cancel
+"Please cancel the action",cancel
+"I'm withdrawing",cancel
+"I change my mind, cancel it",cancel
+"Call it off",cancel
+"Stop, I don't want this",cancel
+"Don't execute it",cancel
+"Cancel the process, please",cancel
+"I'm cancelling this",cancel
+"I no longer wish to proceed",cancel
+"Terminate this action",cancel
+"No, cancel",cancel
+"Stop and abort",cancel
+"I don't approve, stop",cancel
+"I'm opting out, cancel",cancel
+"Don't go ahead with this",cancel
+"I decide against it",cancel
+"Let's halt it",cancel
+"End the posting",cancel
+"Cancel the operation immediately",cancel
+"Stop, I've changed my mind",cancel
+"Abort the process, please",cancel
+"Don't create the post",cancel
+"I'm not going through with it",cancel
+"Cancel the job posting now",cancel
+"No, withdraw it",cancel
+"I want to revoke this",cancel
+"Cancel the process now",cancel
+"Let's not continue",cancel
+"I decide to stop",cancel
+"Halt everything",cancel
+"No, cancel that",cancel
+"Abort, stop it",cancel
+"Don't proceed further",cancel
+"I'm out, cancel it",cancel
+"I no longer want this, cancel",cancel
+"Stop the operation",cancel
+"I cancel this request",cancel
+"Bye bye",exit
+"I'm done now",exit
+"See you next time",exit
+"Enough, let's quit",exit
+"Bye, I'm finished",exit
+"Nothing else, I'm out",exit
+"No more, I'm leaving",exit
+"Close this",exit
+"Thanks, that's all",exit
+"Exit please",exit
+"Goodbye",exit
+"I'm exiting now",exit
+"Time to go",exit
+"I'm signing off",exit
+"Farewell",exit
+"Catch you later",exit
+"I'm done",exit
+"That's it, goodbye",exit
+"I'm out",exit
+"Log me out",exit
+"End session",exit
+"Wrap it up",exit
+"See you later",exit
+"I'm finished here",exit
+"Adios",exit
+"Later",exit
+"Time to bounce",exit
+"I'm off",exit
+"I'm checking out",exit
+"Signing off",exit
+"I'll leave now",exit
+"Goodbye for now",exit
+"That's all from me",exit
+"I'm done, thanks",exit
+"Exit the session",exit
+"Take care, bye",exit
+"I’m leaving",exit
+"Done, bye",exit
+"I'm out of here",exit
+"Alright, I'm off",exit
+"Catch you on the flip side",exit
+"Time to head out",exit
+"Goodbye, everyone",exit
+"I'm calling it quits",exit
+"I'm done, signing off",exit
+"That's it, I'm out",exit
+"Peace out",exit
+"I'm ending this",exit
+"Goodbye, I'm finished",exit
+"Over and out",exit
+"I'm closing the app",exit
+"Exiting now",exit
+"I'm checking out now",exit
+"Goodbye, see you soon",exit
+"I'll be going now",exit
+"Time to leave",exit
+"I'm out, thank you",exit
+"Goodbye, all the best",exit
+"I'm off to go",exit
+"Session over, bye",exit
+"I'm quitting now",exit
+"That's my cue to leave",exit
+"Exit now",exit
+"Bye for now",exit
+"I'm finished, goodbye",exit
+"I'm done here, bye",exit
+"Signing off now",exit
+"Take care, goodbye",exit
+"I'm wrapping up, bye",exit
+"That's it, farewell",exit
+"I'm out, peace",exit
+"Leaving now",exit
+"Goodbye, I'm out",exit
+"I'm done, thanks for everything",exit
+"Time's up, I'm leaving",exit
+"I'll exit now",exit
+"Goodbye, see you next time",exit
+"I'm off, goodbye",exit
+"That's a wrap, bye",exit
+"I'm done, catch you later",exit
+"Finishing up, bye",exit
+"Goodbye, I'm done",exit
+"I'm logging off, bye",exit
+"That's it, I'm leaving",exit
+"See you, I'm out",exit
+"I'm stepping out, bye",exit
+"I'm exiting, farewell",exit
+"Goodbye, I'm off now",exit
+"I'm done, peace out",exit
+"Time to sign off, bye",exit
+"I'm wrapping this up, goodbye",exit
+"That's all, I'm leaving",exit
+"Out of here, bye",exit
+"I'm departing, goodbye",exit
+"Exit the conversation, bye",exit
+"I'm out now, thanks",exit
+"Bye, I'm done",exit
+"That's it, I'm checking out",exit
+"Goodbye, signing off",exit
+"I'm leaving now, farewell",exit
