@@ -6,9 +6,6 @@ use lrtc::{classify, CompressionAlgorithm};
 use rustler::{NifResult, ResourceArc};
 use rustler::{Term, Env};
 
-// -------------------------------
-// Data we want to store in Rust
-// -------------------------------
 struct ClassifierData {
     training: Vec<String>,
     labels: Vec<String>,
@@ -22,9 +19,6 @@ struct ClassifierResource {
     data: RwLock<ClassifierData>,
 }
 
-// -------------------------------
-// Helper function: parse a string into CompressionAlgorithm
-// -------------------------------
 fn parse_algorithm(alg_str: &str) -> CompressionAlgorithm {
     match alg_str.to_lowercase().as_str() {
         "zstd" => CompressionAlgorithm::Zstd,
@@ -35,10 +29,6 @@ fn parse_algorithm(alg_str: &str) -> CompressionAlgorithm {
     }
 }
 
-// -------------------------------
-// Helper function: replicate the algorithm
-// (because lrtc's enum doesn't derive Clone)
-// -------------------------------
 fn copy_algorithm(alg: &CompressionAlgorithm) -> CompressionAlgorithm {
     match alg {
         CompressionAlgorithm::Zstd => CompressionAlgorithm::Zstd,
@@ -48,9 +38,6 @@ fn copy_algorithm(alg: &CompressionAlgorithm) -> CompressionAlgorithm {
     }
 }
 
-// -------------------------------
-// NIF #1: load training data
-// -------------------------------
 #[rustler::nif]
 fn load(
     file_path: String,
@@ -66,7 +53,7 @@ fn load(
     let mut training = Vec::new();
     let mut labels = Vec::new();
 
-    // Very naive: assume CSV has 2 columns: text in [0], label in [1].
+    // Naive: assume CSV has 2 columns: text in [0], label in [1].
     for record in reader.records() {
         let record = record.map_err(|_e| rustler::Error::BadArg)?;
         let text = record.get(0).unwrap_or("").to_string();
@@ -91,9 +78,6 @@ fn load(
     Ok(ResourceArc::new(resource))
 }
 
-// -------------------------------
-// NIF #2: classify a single query
-// -------------------------------
 #[rustler::nif]
 fn classify_query(resource: ResourceArc<ClassifierResource>, query: String) -> String {
     let guard = resource.data.read().unwrap();
@@ -115,18 +99,14 @@ fn classify_query(resource: ResourceArc<ClassifierResource>, query: String) -> S
     result.into_iter().next().unwrap_or_else(|| "unknown".to_string())
 }
 
-// -------------------------------
-// on_load: register resource
-// -------------------------------
+
 #[allow(non_local_definitions)]
 fn on_load(env: Env, _info: Term) -> bool {
+    // saving in empty var to remove warning
     let _ = rustler::resource!(ClassifierResource, env);
     true
 }
 
-// -------------------------------
-// rustler::init
-// -------------------------------
 rustler::init!(
     "Elixir.Rassifier",
     load = on_load
