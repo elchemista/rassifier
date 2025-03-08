@@ -8,12 +8,10 @@ The library supports customization of the compression level, the number of neare
 
 ## Installation
 
-If available on Hex, add `rassifier` to your list of dependencies in `mix.exs`:
-
 ```elixir
 def deps do
   [
-    {:rassifier, "~> 0.1.0"}
+    {:rassifier, "~> 0.1.0", github: "elchemista/rassifier"}
   ]
 end
 ```
@@ -186,6 +184,8 @@ Contributions are welcome! Feel free to open issues or submit pull requests on [
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the (MIT License)[LICENSE].
+
+The [lrtc](https://github.com/jerryjliu/lrtc) has its own license please check it out.
 
 ---

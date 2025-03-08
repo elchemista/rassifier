@@ -20,7 +20,7 @@ defmodule Rassifier.Worker do
     algorithm = Keyword.get(opts, :algorithm, "zstd")
 
     # This calls the Rust NIF, returning an opaque resource handle.
-    resource = Consulente.Agents.Classifier.load(file_path, level, k, algorithm)
+    resource = Rassifier.load(file_path, level, k, algorithm)
 
     # We store that resource in our GenServer state for later classification calls:
     {:ok, resource}
@@ -34,14 +34,14 @@ defmodule Rassifier.Worker do
   @impl true
   def handle_call({:classify, query}, _from, resource) do
     # We call the Rust side with our resource to get the classification.
-    label = Consulente.Agents.Classifier.classify_query(resource, query)
+    label = Rassifier.classify_query(resource, query)
     {:reply, label, resource}
   end
 
   @impl true
   def handle_cast({:classify, query, from}, resource) do
     # We call the Rust side with our resource to get the classification.
-    label = Consulente.Agents.Classifier.classify_query(resource, query)
+    label = Rassifier.classify_query(resource, query)
     send(from, {:classified, label})
 
     {:noreply, resource}
