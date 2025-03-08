@@ -1,7 +1,7 @@
 defmodule Rassifier.MixProject do
   use Mix.Project
 
-  @version "0.1.0"
+  @version "0.1.1"
 
   def project do
     [
@@ -41,7 +41,7 @@ defmodule Rassifier.MixProject do
     [
       extras: ["README.md"],
       main: "readme",
-      source_ref: "v0.1.0",
+      source_ref: "v0.1.1",
       source_url: "https://github.com/elchemista/rassifier"
     ]
   end
