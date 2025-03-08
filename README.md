@@ -11,7 +11,7 @@ The library supports customization of the compression level, the number of neare
 ```elixir
 def deps do
   [
-    {:rassifier, "~> 0.1.0", github: "elchemista/rassifier"}
+    {:rassifier, "~> 0.1.1", github: "elchemista/rassifier"}
   ]
 end
 ```
