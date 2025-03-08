@@ -1,12 +1,14 @@
 defmodule Rassifier.MixProject do
   use Mix.Project
 
+  @version "0.1.0"
+
   def project do
     [
       app: :rassifier,
-      version: "0.1.0",
+      version: @version,
       elixir: "~> 1.18",
-      start_permanent: Mix.env() == :prod,
+      build_embedded: Mix.env() == :prod,
       deps: deps(),
       description: description(),
       package: package(),
@@ -18,7 +20,7 @@ defmodule Rassifier.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger]
+      extra_applications: []
     ]
   end
 
@@ -47,11 +49,11 @@ defmodule Rassifier.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:rustler, "~> 0.36.1"},
+      {:rustler_precompiled, "~> 0.8"},
+      {:rustler, ">= 0.0.0", optional: true},
+      {:dialyxir, "~> 1.4", only: [:dev, :test], runtime: false},
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
-      {:ex_doc, "~> 0.29", only: :dev, runtime: false}
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+      {:ex_doc, "~> 0.35", only: :dev}
     ]
   end
 end
